@@ -1,0 +1,52 @@
+<% keys = %w(65 83 68 70 71 72 74 75 76) %>
+
+<div class="drumkit" id="drumkit">
+  <div class="content">
+    <div class="drumtab" data-key="<%= keys[0] %>">
+      <h2>A</h2>
+      <h3>Clap</h3>
+    </div>
+    <div class="drumtab" data-key="<%= keys[1] %>">
+      <h2>S</h2>
+      <h3>Hihat</h3>
+    </div>
+    <div class="drumtab" data-key="<%= keys[2] %>">
+      <h2>D</h2>
+      <h3>Kick</h3>
+    </div>
+    <div class="drumtab" data-key="<%= keys[3] %>">
+      <h2>F</h2>
+      <h3>Openhat</h3>
+    </div>
+    <div class="drumtab" data-key="<%= keys[4] %>">
+      <h2>G</h2>
+      <h3>Boom</h3>
+    </div>
+    <div class="drumtab" data-key="<%= keys[5] %>">
+      <h2>H</h2>
+      <h3>Ride</h3>
+    </div>
+    <div class="drumtab" data-key="<%= keys[6] %>">
+      <h2>J</h2>
+      <h3>Snare</h3>
+    </div>
+    <div class="drumtab" data-key="<%= keys[7] %>">
+      <h2>K</h2>
+      <h3>Tom</h3>
+    </div>
+    <div class="drumtab" data-key="<%= keys[8] %>">
+      <h2>L</h2>
+      <h3>Tink</h3>
+    </div>
+  </div>
+</div>
+
+<audio data-key="65" src="<%= asset_path('clap.wav') %>"></audio>
+<audio data-key="83" src="<%= asset_path('hihat.wav') %>"></audio>
+<audio data-key="68" src="<%= asset_path('kick.wav') %>"></audio>
+<audio data-key="70" src="<%= asset_path('openhat.wav') %>"></audio>
+<audio data-key="71" src="<%= asset_path('boom.wav') %>"></audio>
+<audio data-key="72" src="<%= asset_path('ride.wav') %>"></audio>
+<audio data-key="74" src="<%= asset_path('snare.wav') %>"></audio>
+<audio data-key="75" src="<%= asset_path('tom.wav') %>"></audio>
+<audio data-key="76" src="<%= asset_path('tink.wav') %>"></audio>

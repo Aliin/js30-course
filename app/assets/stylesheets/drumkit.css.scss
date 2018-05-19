@@ -1,0 +1,58 @@
+$black: rgb(0, 0, 0);
+$white: rgb(255, 255, 255);
+$darken: rgba(0, 0, 0, .4);
+$yellow: rgb(255, 198, 0);
+
+.drumkit {
+  height: 100%;
+  width: 100%;
+  background-image: url(image-path('drumkit/audience.jpg'));
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position-y: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+
+.drumtab {
+  color: $white;
+  width: 7rem;
+  box-sizing: border-box;
+  padding: .6rem 0;
+  background-color: $darken;
+  text-align: center;
+  border: .25rem solid $black;
+  border-radius: .4rem;
+
+  &.playing {
+    transform: scale(1.1);
+    border-color: $yellow;
+    box-shadow: 0 0 1rem $yellow;
+  }
+
+  h2,
+  h3 {
+    margin: 0;
+  }
+
+  h2 {
+    font-family: monospace;
+    font-size: 3.2rem;
+    font-weight: 300;
+  }
+
+  h3 {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: .9rem;
+    color: $yellow;
+  }
+}
