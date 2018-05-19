@@ -4,4 +4,7 @@ class HomeController < ApplicationController
 
   def drumkit
   end
+
+  def clock
+  end
 end
