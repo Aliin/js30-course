@@ -10,4 +10,7 @@ class HomeController < ApplicationController
 
   def css_vars
   end
+
+  def array_cardio_1
+  end
 end
