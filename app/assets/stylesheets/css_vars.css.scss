@@ -1,0 +1,37 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+.css-var-wrapper {
+  min-height: 100%;
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: .85rem;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
+img {
+  border-style: solid;
+  border-width: var(--spacing);
+  border-color: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}

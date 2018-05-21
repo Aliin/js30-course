@@ -7,4 +7,7 @@ class HomeController < ApplicationController
 
   def clock
   end
+
+  def css_vars
+  end
 end
